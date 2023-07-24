@@ -37,7 +37,7 @@
 ## Overview
 
 
-![Solution-Screenshot](./screeenshots/solution-ss.png)
+![Solution-Screenshot](solution-ss.png)
 
 Created a responsive 'My Team Page' webpage using HTML and CSS.
 

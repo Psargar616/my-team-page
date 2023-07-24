@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    width: 100%;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+h1{
+    color: #000;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -1.62px;
+    transition: all 1s ease;
+
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+h1:hover{
+    text-shadow: 0 0 5px #A9A9A9;
+    transform: scale(1.01);
+}
+figcaption{
+    transition: all 1s ease;
+}
+figcaption:hover{
+    font-weight: 700;
+    cursor: pointer;
+}
+.who-r-we{
+    width: 40%;
+    color: #000;
+    font-style: normal;
+    line-height: normal;
+
+
+}
+
+.who-r-we h2{
+   
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.who-r-we p{
+    font-size: 18px;
+    font-weight: 400;
+   
+}
+
+.container{
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2rem;
+    margin: 4rem 10rem;
+    transition: all 1s ease;
+    
+}
+
+.member{
+    position: relative;
+    max-width: 300px;
+    margin: auto;
+    margin-bottom: 4rem;
+   
+}
+
+.member img{
+    width: 100%;
+    transition: all 1s ease;
+}
+.member img:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 10px #000;
+
+}
+.member:nth-child(3n+2){
+    margin-bottom: 0;
+    margin-top: 5rem;
+}
+
+.member:first-child::after{
+    content: 'Product owner';
+    padding-bottom: 1rem;
+}
+
+.member:nth-child(2)::after{
+    content: 'Art director';
+}
+.member:nth-child(3)::after{
+    content: 'Tech Lead';
+}
+.member:nth-child(4)::after{
+    content: 'UX Designer';
+}
+.member:nth-child(5)::after{
+    content: 'Developer';
+}
+.member:nth-child(6)::after{
+    content: 'Deverloper';
+}
+
+.member::after{
+    color: #000;
+    position: absolute;
+    transform: rotate(90deg);
+    top: 3rem;
+    right: -3rem;
+    font-size: 12px;
+    font-weight: 400;
+
+}
+
+footer{
+    width: 100%;
+    text-align: center;
+    color: #A9A9A9;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+#username{
+    color: #A9A9A9;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration-line: underline;
+}
+
+@media screen and (max-width:786px) {
+
+    header{
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 2rem;
+    }
+    .who-r-we{
+        width: 90%;
+    }
+    .container{
+        grid-template-columns: repeat(2,1fr);
+        /* padding: 4rem 5rem; */
+    }
+    .member{
+        transform: scale(0.9);
+        
+    }
+}
+
+@media screen and (max-width:789px){
+    .member:nth-child(2n+2){
+        margin-bottom: 0; 
+        margin-top: 5rem;
+    }
+
+    .member:nth-child(5){
+        margin-bottom:0;
+        margin-top: 2rem;
+    }
+
+   
+    
+}

@@ -8,11 +8,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
-      Demo
+    <a href="https://{psargar616.github.io/my-team-page/}">
+    Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://{github.com/Psargar616/my-team-page}">
       Solution
     </a>
     <span> | </span>
@@ -36,7 +36,7 @@
 
 ## Overview
 
-![screenshot](./screeenshots/solution-ss.png)
+![screenshot](screeenshots/solution-ss.png)
 
 Created a responsive 'My Team Page' webpage using HTML and CSS.
 
@@ -50,7 +50,6 @@ Created a responsive 'My Team Page' webpage using HTML and CSS.
 ## Features
 
 
-
 This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/hhmesazsqgKXrTkYkt0U) was to build an application to complete the given user stories.
 
 
@@ -61,5 +60,5 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 ## Contact
 
-- GitHub [@Psargar616](https://{github.com/your-usermame})
+- GitHub [@Psargar616](https://{github.com/Psargar616})
 
